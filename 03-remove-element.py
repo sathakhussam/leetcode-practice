@@ -5,6 +5,7 @@ class Solution:
             if nums[i] == val:
                 nums[i] = nums[k] 
                 k=k - 1
+        return k+1
             
 
 s = Solution()
