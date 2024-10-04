@@ -55,6 +55,10 @@ class Solution:
         print(c)
         return c
 
+s = " Hello "
+s.strip()
+s.split
+
 # TWO LETTERS AT A TIME
 
 s = Solution()
