@@ -1,6 +1,8 @@
 class Solution:
     def longestCommonPrefix(self, strs):
         pr = strs[0]
+        strs = sorted(strs)
+        print(strs)
         for word in strs[1:]:
             s = -1
             for i in range(min(len(pr), len(word))):
