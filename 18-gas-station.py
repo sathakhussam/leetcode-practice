@@ -11,7 +11,7 @@ class Solution:
             g += gas[i]
             g -= cost[i]
             if g < 0:
-                s = i
+                s = i + 1
                 g = 0
 
         if tg < tc:
